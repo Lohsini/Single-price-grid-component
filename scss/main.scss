@@ -1,0 +1,96 @@
+$Fontfamily: 'Karla', sans-serif;
+$Fontsize: 16px;
+$GrayishBlue: hsl(218, 22%, 67%);
+$LightGray: hsl(204, 43%, 93%);
+$Cyan: hsl(179, 62%, 43%);
+$LighBlue: hsl(179, 47%, 52%);
+$BrightYellow: hsl(71, 73%, 54%);
+
+* {
+  font-family: $Fontfamily;
+  font-size: $Fontsize;
+}
+
+.ad {
+  width: 800px;
+  background-color: rgb(207, 212, 186);
+  margin: 100px auto;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .part {
+    padding: 50px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .first_part {
+    background-color: white;
+
+    h3 {
+      color: $Cyan;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    h5 {
+      color: $BrightYellow;
+    }
+
+    p {
+      color: $GrayishBlue;
+    }
+  }
+
+  .second_part {
+    background-color: $Cyan;
+    color: white;
+
+    h4 {
+      font-weight: 700;
+    }
+
+    .dollar {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .little {
+      color: #52d0ce;
+      display: inline-block;
+    }
+
+    .btn {
+      background-color: $BrightYellow;
+      color: white;
+      width: 100%;
+      margin: 20px auto;
+      box-shadow: 2px 2px 10px gray;
+      font-weight: 700;
+      padding: 15px;
+    }
+  }
+
+  .third_part {
+    background-color: $LighBlue;
+    color: white;
+
+    h4 {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    p {}
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
