@@ -4,7 +4,7 @@
 }
 
 .ad {
-  width: 800px;
+  max-width: 800px;
   background-color: #cfd4ba;
   margin: 100px auto;
   border-radius: 10px;
@@ -40,6 +40,7 @@
 .ad .second_part .dollar {
   font-size: 2.5rem;
   font-weight: 700;
+  vertical-align: middle;
 }
 .ad .second_part .little {
   color: #52d0ce;
@@ -62,9 +63,11 @@
   font-weight: 700;
   margin-bottom: 30px;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: #98a6bd;
 }
 
 .attribution a {
